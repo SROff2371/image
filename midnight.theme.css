@@ -12,7 +12,11 @@
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
+
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://github.com/SROff2371/image/blob/main/midnight.theme.css');
+@import url('https://fonts.googleapis.com/css2?family=destruction+manual:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=destruction++manual:wght@100;300;400;500;700&display=swap');
 
 /* customize things here */
 :root {
@@ -71,6 +75,13 @@
 	--roundness-s: 12px; /* members, settings inputs */
 	--roundness-xs: 10px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
+
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon */
+	--moon-icon: block; /* moon icon */
+	--moon-icon-url: url('https://github.com/SROff2371/image/blob/main/bdac8a92cf9dee7.png'); /* custom icon url */
+	--moon-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
 	/* Changed to grayscale appearance */
